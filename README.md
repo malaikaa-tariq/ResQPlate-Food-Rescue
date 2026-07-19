@@ -1,4 +1,4 @@
-# ResQPlate — Food Rescue
+# ResQPlate — Food Rescue Website
 
 ResQPlate is a responsive React application that demonstrates two complementary global state-management approaches: Context API for stable app-wide preferences, and Redux Toolkit for feature-rich domain data.
 
