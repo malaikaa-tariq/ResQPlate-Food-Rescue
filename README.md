@@ -1,31 +1,16 @@
 # ResQPlate — Food Rescue Website
 
-ResQPlate is a responsive React application that demonstrates two complementary global state-management approaches: Context API for stable app-wide preferences, and Redux Toolkit for feature-rich domain data.
+ResQPlate is a responsive React application that demonstrates two complementary global state-management approaches: Context API for stable app-wide preferences and Redux Toolkit for feature-rich domain data.
 
-## Mentor acceptance criteria
+- Context API: Manages the user account, donor/receiver role, location preference, theme, and accessibility-ready preferences in `app/state/AppContext.tsx`.
+- Redux Toolkit store: Configured in `app/state/store.ts`.
+- Four Redux slices: `inventorySlice`, `donationsSlice`, `requestsSlice`, and `recipesSlice`.
+- Async thunks: Used for Open Food Facts product searches, nearby donation loading, and recipe suggestions.
+- Responsive interface: Includes pantry tracking, donation discovery, pickup coordination, recipes, theme switching, and an Architecture Lab.
 
-- Context API: user account, donor/receiver role, location preference, theme and accessibility-ready preferences in `app/state/AppContext.tsx`.
-- Redux Toolkit store: configured in `app/state/store.ts`.
-- Four slices: `inventorySlice`, `donationsSlice`, `requestsSlice`, and `recipesSlice`.
-- Async thunks: Open Food Facts product search, nearby donation loading, and recipe suggestions.
-- Complete responsive interface with pantry tracking, donation discovery, pickup coordination, recipes, theme switching, and an Architecture Lab.
+## Run Locally
 
-## Run locally
+Install the dependencies:
 
 ```bash
 npm install
-npm run dev
-```
-
-Then open the local URL shown in the terminal.
-
-## Production checks
-
-```bash
-npm run lint
-npm run build
-```
-
-## Responsible limitation
-
-The mentor version uses local demonstration data. Real food-safety verification, deliveries, partner onboarding, and live location tracking require a secure backend and verified organizations.
