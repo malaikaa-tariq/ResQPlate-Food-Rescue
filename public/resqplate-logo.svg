@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">ResQPlate logo</title><desc id="desc">A plate protected by two leaves</desc>
+  <defs><linearGradient id="g" x1="8" y1="7" x2="55" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#E7F568"/><stop offset="1" stop-color="#9ED34C"/></linearGradient></defs>
+  <rect width="64" height="64" rx="18" fill="url(#g)"/>
+  <circle cx="32" cy="33" r="16.5" fill="none" stroke="#123C31" stroke-width="4"/>
+  <path d="M31 37c-8-1-12-6-12-14 8 0 14 4 15 12" fill="#123C31"/>
+  <path d="M33 35c1-8 6-13 14-14 0 8-4 14-13 16" fill="#17654C"/>
+  <path d="M32 34v13" stroke="#123C31" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M16 50c10 6 22 7 33 0" fill="none" stroke="#123C31" stroke-width="3" stroke-linecap="round"/>
+</svg>
